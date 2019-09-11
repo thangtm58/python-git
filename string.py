@@ -1,26 +1,26 @@
 import string
-# # học chuỗi
-# print('\nChuỗi nhiều dòng:')
-# str1 = '''Hello
-# I am Thang
-# Nice to meet you
-# Thank you'''
-# print(str1)
-#
-# print('\nChuỗi trần:')
-# print(r'\neu mot ngay nao do') #loai \n bang cach them 'r'
-#
-# print('\nIn nhiều chuỗi:')
-# strA = 'Thang Koi'
-# strB = 'oi'
-# strC = strA*5
-# strD = strB in strA
-# print(strC)
-# print(strD) #check chuỗi B trong A hay k
-# print(strA[3])
-# print(strA[-2]) #in đi ngược từ bên phải *only Python bắt đầu từ -1
-# print(strA[len(strA) - 1]) #đội dài chcuốiuỗi la len(), syntax này lấy ra phần tử
-# print(strA[2:7]) #7 là số kí tự tính từ cái đầu
+# học chuỗi
+print('\nChuỗi nhiều dòng:')
+str1 = '''Hello
+I am Thang
+Nice to meet you
+Thank you'''
+print(str1)
+
+print('\nChuỗi trần:')
+print(r'\neu mot ngay nao do') #loai \n bang cach them 'r'
+
+print('\nIn nhiều chuỗi:')
+strA = 'Thang Koi'
+strB = 'oi'
+strC = strA*5
+strD = strB in strA
+print(strC)
+print(strD) #check chuỗi B trong A hay k
+print(strA[3])
+print(strA[-2]) #in đi ngược từ bên phải *only Python bắt đầu từ -1
+print(strA[len(strA) - 1]) #đội dài chcuốiuỗi la len(), syntax này lấy ra phần tử
+print(strA[2:7]) #7 là số kí tự tính từ cái đầu
 
 str1 = 'I am %s %s'%('Thang', 'Koi')
 print(str1)
